@@ -5,9 +5,7 @@
         <image class="banner-img" mode="scaleToFill" src="../../static/temp.png"></image>
       </view>
       <hz-search-input></hz-search-input>
-      <view>
-
-      </view>
+      <hz-scroll-view></hz-scroll-view>
       <view class="uni-flex uni-row view-warp">
         <hz-shop-card :shoplist="shopList"></hz-shop-card>
       </view>
@@ -18,8 +16,9 @@
 <script>
 import HzShopCard from "../../components/hz-shop-card/hz-shop-card";
 import HzSearchInput from "../../components/hz-search-input/hz-search-input";
+import HzScrollView from "../../components/hz-scroll-view/hz-scroll-view";
 export default {
-  components: {HzSearchInput, HzShopCard},
+  components: {HzScrollView, HzSearchInput, HzShopCard},
   data() {
     return {
       shopList:[{},{},{},{},{},{},{},{},{}],
@@ -50,6 +49,5 @@ button:after{ border: none; }
   height: 100%;
   border-radius: 10px;
 }
-
 
 </style>
