@@ -1,0 +1,73 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "商城主页",
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": true
+		}
+	}    ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop-info/shop-info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "default",
+				"transparentTitle": "auto"
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^hz-(.*):":"@/components/hz-$1.vue"
+		}
+	},
+	"tabBar": {
+		"height": "6vh",
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"list":[{
+			"pagePath": "pages/index/index",
+			"text": "主页"
+		},{
+			"pagePath": "pages/category/category",
+			"text": "分类"
+		},{
+			"pagePath": "pages/user/user",
+			"text": "我的"
+		}]
+	}
+}
