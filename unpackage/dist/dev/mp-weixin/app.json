@@ -1,6 +1,13 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/shop/shop-info",
+    "pages/index/user",
+    "pages/index/welfare",
+    "pages/index/queue",
+    "pages/shop/shop-order",
+    "pages/options/real-name-auth",
+    "pages/options/shop-settled"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -8,6 +15,29 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "white",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/index/welfare",
+        "text": "福利区"
+      },
+      {
+        "pagePath": "pages/index/queue",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/index/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
 }

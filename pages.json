@@ -8,7 +8,7 @@
 		}
 	},
         {
-            "path" : "pages/shop-info/shop-info",
+            "path" : "pages/shop/shop-info",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "商品详情",
@@ -19,11 +19,58 @@
             
         }
         ,{
-            "path" : "pages/user/user",
+            "path" : "pages/index/user",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "我的",
 				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/welfare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "福利区",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/queue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "排行榜",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/shop/shop-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/options/real-name-auth",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实名认证",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/options/shop-settled",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家入驻",
                 "enablePullDownRefresh": false
             }
             
@@ -54,7 +101,13 @@
 			"pagePath": "pages/index/index",
 			"text": "主页"
 		},{
-			"pagePath": "pages/user/user",
+			"pagePath": "pages/index/welfare",
+			"text": "福利区"
+		},{
+			"pagePath": "pages/index/queue",
+			"text": "排行榜"
+		},{
+			"pagePath": "pages/index/user",
 			"text": "我的"
 		}]
 	}

@@ -1,0 +1,27 @@
+
+/*去掉滚动条*/
+.data-v-3bd993f8::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+.scroll-view_H.data-v-3bd993f8 {
+  white-space: nowrap;
+  width: 100%;
+  background: #ffffff;
+}
+.scroll-view-item_H.data-v-3bd993f8 {
+  display: inline-block;
+  width: 80px;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 12px;
+}
+.scroll-view-item_H-active.data-v-3bd993f8 {
+  color: #ff5a00;
+  border-bottom: 1px solid #ff5a00;
+}

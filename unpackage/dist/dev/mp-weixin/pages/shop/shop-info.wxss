@@ -1,0 +1,39 @@
+
+.shop-img-box{
+		height: 450px;
+}
+.price-box{
+		background: #ffaa00;
+		height: 70px;
+}
+.price{
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 20px;
+}
+.oldPrice{
+		color: #ffffff;
+		text-decoration:line-through;
+}
+.sellNum{
+		color: #ffffff;
+}
+.title-box{
+		background: #fff;
+		font-weight: bold;
+		padding: 10px;
+}
+.goods-carts {
+
+		display: flex;
+
+		flex-direction: column;
+		position: fixed;
+		left: 0;
+		right: 0;
+
+
+
+
+		bottom: 0;
+}

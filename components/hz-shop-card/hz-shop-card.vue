@@ -1,13 +1,15 @@
 <template>
-  <view class="shop-list-item" v-for="shop in shoplist">
-    <view>
-      <image class="shop-img" mode="scaleToFill" :src="shop.image!=null?shop.image:'../../static/temp.png'"></image>
-    </view>
-    <view>
-      <text class="uni-ellipsis" style="font-size: small;font-weight: bold;">{{shop.name!=null?shop.name:'商品标题'}}</text>
-    </view>
-    <view>
-      <text style="color: red;font-weight: bold;">{{shop.price!=null?shop.price:'$600.0'}}</text>
+  <view class="uni-flex uni-row view-warp">
+    <view class="shop-list-item" v-for="shop in shoplist" @click="goToInfo(shop.id)">
+      <view>
+        <image class="shop-img" mode="scaleToFill" :src="shop.image!=null?shop.image:'../../static/temp.png'"></image>
+      </view>
+      <view>
+        <text class="uni-ellipsis" style="font-size: small;font-weight: bold;">{{shop.name!=null?shop.name:'商品标题'}}</text>
+      </view>
+      <view>
+        <text style="color: red;font-weight: bold;">{{shop.price!=null?shop.price:'$600.0'}}</text>
+      </view>
     </view>
   </view>
 </template>
@@ -21,6 +23,17 @@ export default {
       default:()=>[]
     }
   },
+  data() {
+    return {
+    }
+  },
+  methods: {
+    goToInfo(id){
+      uni.navigateTo({
+        url: '/pages/shop-info/shop-info?id='+id
+      })
+    }
+  }
 }
 </script>
 

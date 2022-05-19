@@ -1,0 +1,14 @@
+
+.code-button {
+  color: #FFFFFF;
+  background-color: #b2b2b2;
+  font-size: 12px;
+  margin: 20px;
+  width: 125px;
+}
+.submit-button {
+  color: #FFFFFF;
+  background-color: #0A98D5;
+  font-size: 16px;
+  margin: 20px;
+}

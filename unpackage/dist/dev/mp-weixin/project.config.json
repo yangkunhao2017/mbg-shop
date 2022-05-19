@@ -16,6 +16,7 @@
     "uglifyFileName": false,
     "uploadWithSourceMap": true,
     "enhance": true,
+    "useMultiFrameRuntime": true,
     "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
     "packNpmRelationList": [],
@@ -23,17 +24,17 @@
     "useStaticServer": true,
     "showES6CompileOption": false,
     "checkInvalidKey": true,
+    "compileHotReLoad": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
     "disableUseStrict": false,
-    "useCompilerPlugins": false,
-    "minifyWXML": true
+    "useCompilerPlugins": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.24.1",
+  "libVersion": "2.24.2",
   "appid": "touristappid",
   "projectname": "mbg-shop",
   "condition": {},

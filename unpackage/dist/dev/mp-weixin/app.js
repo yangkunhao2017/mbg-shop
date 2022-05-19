@@ -4,6 +4,13 @@ exports[Symbol.toStringTag] = "Module";
 var common_vendor = require("./common/vendor.js");
 if (!Math) {
   "./pages/index/index.js";
+  "./pages/shop/shop-info.js";
+  "./pages/index/user.js";
+  "./pages/index/welfare.js";
+  "./pages/index/queue.js";
+  "./pages/shop/shop-order.js";
+  "./pages/options/real-name-auth.js";
+  "./pages/options/shop-settled.js";
 }
 const _sfc_main = {
   onLaunch: function() {
@@ -17,7 +24,7 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/Administrator/Documents/HBuilderProjects/mbg-shop/App.vue"]]);
+var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "/Users/yangkunhao/WebstormProjects/mbg-shop/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   return {

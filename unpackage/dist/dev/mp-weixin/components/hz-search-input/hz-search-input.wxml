@@ -1,0 +1,1 @@
+<view class="uni-flex uni-row search-box view-center data-v-f7d8d4f4"><uni-icons wx:if="{{a}}" class="data-v-f7d8d4f4" u-i="f7d8d4f4-0" bind:__l="__l" u-p="{{a}}"></uni-icons><input class="data-v-f7d8d4f4" type="text" placeholder="搜索商品" value="{{b}}" bindinput="{{c}}"/><button class="data-v-f7d8d4f4" bindtap="{{d}}">搜索</button></view>

@@ -1,14 +1,24 @@
 <template>
   <view class="uni-flex uni-row search-box view-center">
     <uni-icons type="search" size="20"></uni-icons>
-    <input type="text" placeholder="搜索商品"/>
-    <button>搜索</button>
+    <input type="text" v-model='searchValue' placeholder="搜索商品"/>
+    <button @click="search">搜索</button>
   </view>
 </template>
 
 <script>
 export default {
-  name: "hz-search-input"
+  name: "hz-search-input",
+  data () {
+    return {
+      searchValue:'',
+    }
+  },
+  methods: {
+    search () {
+      this.$emit('search', this.searchValue)
+    }
+  }
 }
 </script>
 

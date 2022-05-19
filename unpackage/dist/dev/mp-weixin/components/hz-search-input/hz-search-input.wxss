@@ -1,0 +1,25 @@
+
+.search-box.data-v-f7d8d4f4 {
+  height: 30px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin: 5px;
+}
+.search-box input.data-v-f7d8d4f4{
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #666;
+}
+.search-box button.data-v-f7d8d4f4{
+  width: 20%;
+  height: 100%;
+  border: none;
+  background: #ff6700;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 10px;
+  text-align: center;
+}

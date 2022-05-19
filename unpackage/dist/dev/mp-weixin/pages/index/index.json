@@ -1,4 +1,10 @@
 {
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {}
+  "navigationBarTitleText": "商城主页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "hz-shop-card": "../../components/hz-shop-card/hz-shop-card",
+    "hz-search-input": "../../components/hz-search-input/hz-search-input",
+    "hz-scroll-view": "../../components/hz-scroll-view/hz-scroll-view"
+  }
 }
